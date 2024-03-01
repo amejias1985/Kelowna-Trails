@@ -30,16 +30,6 @@ pipeline {
             }
         }
 
-        stage('Black Box Testing') {
-            steps {
-                echo 'Running black-box tests...'
-                // Pasos para ejecutar pruebas de caja negra con Selenium y JavaScript
-                // Aquí se pueden agregar comandos para ejecutar pruebas con Selenium WebDriverIO o Protractor
-                // Por ejemplo:
-                // sh 'npm install selenium-webdriver'
-                // sh 'npm test-blackbox'
-            }
-        }
     }
 }
 
